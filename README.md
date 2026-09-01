@@ -74,7 +74,7 @@
 
 - **Windows 10/11**（推荐，文件关联功能仅 Windows）
 - macOS / Linux（理论支持，Web 界面可运行）
-- Python 3.8+
+- ##Python 3.8+##
 - 需要安装 **[7-Zip](https://www.7-zip.org/)**（或兼容的 7z 命令行工具）
 
 

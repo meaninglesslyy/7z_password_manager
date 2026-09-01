@@ -77,43 +77,8 @@
 - Python 3.8+
 - 需要安装 **[7-Zip](https://www.7-zip.org/)**（或兼容的 7z 命令行工具）
 
-### 方式一：直接运行（Python）
 
-```bash
-# 1. 安装依赖
-pip install -r requirements.txt
-
-# 2. 运行程序
-python main.py
-
-# 3. 拖入加密文件（可选）
-python main.py encrypted.7z
-```
-
-启动后浏览器自动打开 `http://127.0.0.1:8765`。
-
-### 方式二：打包为独立 EXE（推荐 Windows 用户）
-
-```bash
-# 自动安装 PyInstaller 并打包
-python build_exe.py
-```
-
-生成的可执行文件在 `dist/7zPasswordManager.exe`。
-
-**注册文件关联**（需要管理员权限，双击 .7z/.zip/.rar 自动用本程序打开）：
-
-```bash
-dist\7zPasswordManager.exe --register
-```
-
-**卸载文件关联**：
-
-```bash
-dist\7zPasswordManager.exe --unregister
-```
-
-### 方式三：Windows 一键设置
+### 安装方式：Windows 一键设置
 
 双击 `setup_windows.bat`，选择：
 1. **直接运行** — 需要已安装 Python 环境

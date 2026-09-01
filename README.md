@@ -83,7 +83,7 @@
 1.双击 `setup_windows.bat`，选择：
   1) **直接运行** — 需要已安装 Python 环境
   2) **打包为 EXE** — 自动安装 PyInstaller 并生成独立可执行文件(推荐此安装方式)
-  3) **注册文件关联** — 将 .7z/.zip/.rar 文件关联到本程序
+  3) **注册文件关联** — 将 .7z/.zip/.rar 文件关联到本程序<br>
 2.控制台运行结束后，在\……\7z_password_manager\dist\文件夹下找到7zPasswordManager.exe，右键添加快捷方式到桌面即可双击使用
 
 ---
